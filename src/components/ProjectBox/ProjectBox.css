@@ -1,0 +1,20 @@
+.project-box {
+    backdrop-filter: saturate(120%) blur(20px);
+    box-shadow: 1px 1px 9px black;
+    padding: 10px;
+    min-height: 90vh;
+}
+
+@media screen and (max-width: 980px) {
+    .project-box {
+        min-height: 100vh;
+    }
+}
+
+.project-box a {
+    text-decoration: none;
+}
+
+.project-box .generic-button {
+    margin: 5px;
+}
