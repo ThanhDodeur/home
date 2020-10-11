@@ -5,9 +5,45 @@ function ProjectBox(props) {
 
     return (
         <div className="project-box">
-            <a className="project" target="new" href="https://thanhdodeur.github.io/marche-noel/">
-                <div className="generic-button white"><i className="fa fa-snowflake-o"></i>Christmas Market</div>
-            </a>
+            <div className="project-tile">
+                <h4>Christmas market</h4>
+                <h6>technologies: JS (React-Redux), HTML, CSS</h6>
+                <div className="project-description">
+                    A custom-made single-page application to compute the data of a Christmas market.
+                </div>
+                <div className="project-thumbnail">
+
+                </div>
+                <a className="project" target="new" href="https://thanhdodeur.github.io/marche-noel/">
+                    <div className="generic-button white"><i className="fa fa-snowflake-o"></i>Preview</div>
+                </a>
+            </div>
+            <div className="project-tile">
+                <h4>Advanced Weapon UI</h4>
+                <h6>technologies: ActionScript 2, Flash</h6>
+                <div className="project-description">
+                    A UI mod for videogame.
+                </div>
+                <div className="project-thumbnail">
+                    <img></img>
+                </div>
+                <a className="project" target="new" href="https://www.curseforge.com/tsw/tsw-mods/advanced-weapon-ui-swl">
+                    <div className="generic-button white"><i className="fa fa-file-text-o"></i>CurseForge page</div>
+                </a>
+            </div>
+            <div className="project-tile">
+                <h4>GW2 KP Generator</h4>
+                <h6>technologies: AHKScript</h6>
+                <div className="project-description">
+                    A custom software that allows generating specific item base64 links and sending them to a chatbox or saving them in the paperclip.
+                </div>
+                <div className="project-thumbnail">
+                    <img></img>
+                </div>
+                <a className="project" target="new" href="https://drive.google.com/file/d/15XxHmgUoC77FD9TEFRa5thxZf3Gruwi-/view?usp=sharing">
+                    <div className="generic-button white"><i className="fa fa-cloud-download"></i>Software and Source code</div>
+                </a>
+            </div>
         </div>
     );
 }

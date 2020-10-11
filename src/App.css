@@ -12,13 +12,19 @@
 }
 
 .page.dark {
-  background-color: #282c34;
   color: white;
+  background: radial-gradient(farthest-corner at 95vw 1vh,#0a224d 1%,#000000 100%);
+  background-image: url('./description/dark-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .page.light {
-  background-color: #cac3bb;
   color: black;
+  background: radial-gradient(farthest-corner at 90vw 10vh,#e6e6e6 1%,#dbcaa9 100%);
+  background-image: url('./description/light-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .ml-auto {
@@ -113,16 +119,12 @@
   background-color: rgba(0, 0, 0, 0.384);
 }
 
+.linkedin {
+  background-color: #0077b5;
+}
+
 .ml-10 {
   margin-left: 10px;
-}
-
-.page.light {
-  background: radial-gradient(farthest-corner at 90vw 10vh,#e6e6e6 1%,#dbcaa9 100%);
-}
-
-.page.dark {
-  background: radial-gradient(farthest-corner at 95vw 1vh,#0a224d 1%,#000000 100%);
 }
 
 .accueil-wrapper {

@@ -70,6 +70,12 @@ class MainPage extends React.Component {
                 callBack: (e) => this.onHrefWrapperClick(e)
             },
             {
+                className: "linkedin",
+                fa: "fa-linkedin-square",
+                content: <a target="new" href="https://be.linkedin.com/in/thanhsondodeur">LinkedIn</a>,
+                callBack: (e) => this.onHrefWrapperClick(e)
+            },
+            {
                 className: (this.state.displayProjects ? "active" : "") + " green ml-auto",
                 fa: "fa-briefcase",
                 content: 'Projects', // <a target="new" href="https://thanhdodeur.github.io/marche-noel/">Christmas Market</a>
