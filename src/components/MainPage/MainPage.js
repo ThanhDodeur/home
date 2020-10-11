@@ -99,7 +99,7 @@ class MainPage extends React.Component {
                 </main>
                 <footer>
                     <div className="footer-box">
-                        <a className="" target="new" href="mailto: thanhdodeur@hotmail.com">
+                        <a className="" target="new" href="mailto: thanhdodeur@gmail.com">
                             <div className="footer-element"><i className="fa fa-envelope"></i>Personal email</div>
                         </a>
                         <a className="" target="new" href="mailto: tso@odoo.com">
