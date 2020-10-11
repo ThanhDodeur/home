@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.7fb0e25a.chunk.css",
-    "main.js": "/home/static/js/main.49fb81f9.chunk.js",
-    "main.js.map": "/home/static/js/main.49fb81f9.chunk.js.map",
+    "main.css": "/home/static/css/main.fa044f4a.chunk.css",
+    "main.js": "/home/static/js/main.038b098b.chunk.js",
+    "main.js.map": "/home/static/js/main.038b098b.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.1ebb12cf.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.1ebb12cf.js.map",
-    "static/js/2.4e9ccafd.chunk.js": "/home/static/js/2.4e9ccafd.chunk.js",
-    "static/js/2.4e9ccafd.chunk.js.map": "/home/static/js/2.4e9ccafd.chunk.js.map",
+    "static/js/2.5aa31ac2.chunk.js": "/home/static/js/2.5aa31ac2.chunk.js",
+    "static/js/2.5aa31ac2.chunk.js.map": "/home/static/js/2.5aa31ac2.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.62c066fc69172411cc145caf2ccbd381.js": "/home/precache-manifest.62c066fc69172411cc145caf2ccbd381.js",
+    "precache-manifest.00c39e93fb4657185ae7f21de3ea840f.js": "/home/precache-manifest.00c39e93fb4657185ae7f21de3ea840f.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/main.7fb0e25a.chunk.css.map": "/home/static/css/main.7fb0e25a.chunk.css.map",
-    "static/js/2.4e9ccafd.chunk.js.LICENSE.txt": "/home/static/js/2.4e9ccafd.chunk.js.LICENSE.txt",
+    "static/css/main.fa044f4a.chunk.css.map": "/home/static/css/main.fa044f4a.chunk.css.map",
+    "static/js/2.5aa31ac2.chunk.js.LICENSE.txt": "/home/static/js/2.5aa31ac2.chunk.js.LICENSE.txt",
+    "static/media/awu.png": "/home/static/media/awu.a5f1981c.png",
     "static/media/App.css": "/home/static/media/light-background.6eafe192.jpg",
+    "static/media/links.png": "/home/static/media/links.6f6d31f8.png",
     "static/media/main-icon-dark.svg": "/home/static/media/main-icon-dark.8f958e25.svg",
-    "static/media/main-icon-light.svg": "/home/static/media/main-icon-light.2b04b2d2.svg"
+    "static/media/main-icon-light.svg": "/home/static/media/main-icon-light.2b04b2d2.svg",
+    "static/media/marche-noel.png": "/home/static/media/marche-noel.84c50216.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1ebb12cf.js",
-    "static/js/2.4e9ccafd.chunk.js",
-    "static/css/main.7fb0e25a.chunk.css",
-    "static/js/main.49fb81f9.chunk.js"
+    "static/js/2.5aa31ac2.chunk.js",
+    "static/css/main.fa044f4a.chunk.css",
+    "static/js/main.038b098b.chunk.js"
   ]
 }
