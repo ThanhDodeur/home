@@ -3,6 +3,7 @@ import "./MainPage.css";
 
 import NavBar from "../NavBar/NavBar.js";
 import ProjectBox from "../ProjectBox/ProjectBox.js";
+import Summary from "../Summary/Summary.js";
 
 class MainPage extends React.Component {
     constructor(props) {
@@ -13,23 +14,21 @@ class MainPage extends React.Component {
     }
 
     async componentDidMount() {
-        window.addEventListener('beforeunload', this.onClose);
+        window.addEventListener("beforeunload", this.onClose);
     }
     componentWillUnmount() {
-        window.removeEventListener('beforeunload', this.onClose);
+        window.removeEventListener("beforeunload", this.onClose);
     }
 
     ////////////////// //////// //////////////////
     ////////////////// PRIVATE ///////////////////
     ////////////////// //////// //////////////////
 
-
-
     ////////////////// //////// //////////////////
     ////////////////// HANDLERS //////////////////
     ////////////////// //////// //////////////////
 
-    onClose = () => {}
+    onClose = () => {};
 
     onHrefWrapperClick = (e) => {
         if (e.currentTarget !== e.target) {
@@ -40,11 +39,11 @@ class MainPage extends React.Component {
             e.stopPropagation();
             a[0].click();
         }
-    }
+    };
 
     toggleDisplayProjects = () => {
         this.setState({ displayProjects: !this.state.displayProjects });
-    }
+    };
 
     ////////////////// //////// //////////////////
     ///////////////////// DOM ////////////////////
@@ -60,26 +59,43 @@ class MainPage extends React.Component {
             {
                 className: "white",
                 fa: "fa-github",
-                content: <a target="new" href="https://github.com/ThanhDodeur">Personal Github</a>,
-                callBack: (e) => this.onHrefWrapperClick(e)
+                content: (
+                    <a target="new" href="https://github.com/ThanhDodeur">
+                        Personal Github
+                    </a>
+                ),
+                callBack: (e) => this.onHrefWrapperClick(e),
             },
             {
                 className: "white",
                 fa: "fa-github",
-                content: <a target="new" href="https://github.com/ThanhDodeurOdoo">Work Github</a>,
-                callBack: (e) => this.onHrefWrapperClick(e)
+                content: (
+                    <a target="new" href="https://github.com/ThanhDodeurOdoo">
+                        Work Github
+                    </a>
+                ),
+                callBack: (e) => this.onHrefWrapperClick(e),
             },
             {
                 className: "linkedin",
                 fa: "fa-linkedin-square",
-                content: <a target="new" href="https://be.linkedin.com/in/thanhsondodeur">LinkedIn</a>,
-                callBack: (e) => this.onHrefWrapperClick(e)
+                content: (
+                    <a
+                        target="new"
+                        href="https://be.linkedin.com/in/thanhsondodeur"
+                    >
+                        LinkedIn
+                    </a>
+                ),
+                callBack: (e) => this.onHrefWrapperClick(e),
             },
             {
-                className: (this.state.displayProjects ? "active" : "") + " green ml-auto",
+                className:
+                    (this.state.displayProjects ? "active" : "") +
+                    " green ml-auto",
                 fa: "fa-briefcase",
-                content: 'Sample Projects', // <a target="new" href="https://thanhdodeur.github.io/marche-noel/">Christmas Market</a>
-                callBack: this.toggleDisplayProjects
+                content: "Sample Projects", // <a target="new" href="https://thanhdodeur.github.io/marche-noel/">Christmas Market</a>
+                callBack: this.toggleDisplayProjects,
             },
         ];
         return buttons;
@@ -88,33 +104,46 @@ class MainPage extends React.Component {
     render() {
         return (
             <div className="main-page-wrapper">
-            <NavBar buttons={this._getButtons()} />
-            <div className="main-page">
-                <header>
-                </header>
-                <main>
-                {!!this.state.displayProjects &&
-                    <ProjectBox/>
-                }
-                </main>
-                <footer>
-                    <div className="footer-box">
-                        <a className="" target="new" href="mailto: thanhdodeur@gmail.com">
-                            <div className="footer-element"><i className="fa fa-envelope"></i>Personal email</div>
-                        </a>
-                        <a className="" target="new" href="mailto: tso@odoo.com">
-                            <div className="footer-element"><i className="fa fa-envelope"></i>Odoo email</div>
-                        </a>
-                        <div className="footer-signature ml-auto">
-                            Thanh Dodeur, Software developer @ Odoo
+                <NavBar buttons={this._getButtons()} />
+                <div className="main-page">
+                    <header></header>
+                    <main>
+                        {!!this.state.displayProjects ? (
+                            <ProjectBox />
+                        ) : (
+                            <Summary />
+                        )}
+                    </main>
+                    <footer>
+                        <div className="footer-box">
+                            <a
+                                className=""
+                                target="new"
+                                href="mailto: thanhdodeur@gmail.com"
+                            >
+                                <div className="footer-element">
+                                    <i className="fa fa-envelope"></i>Personal
+                                    email
+                                </div>
+                            </a>
+                            <a
+                                className=""
+                                target="new"
+                                href="mailto: tso@odoo.com"
+                            >
+                                <div className="footer-element">
+                                    <i className="fa fa-envelope"></i>Odoo email
+                                </div>
+                            </a>
+                            <div className="footer-signature ml-auto">
+                                Thanh Dodeur, Software developer @ Odoo
+                            </div>
                         </div>
-                    </div>
-                </footer>
-            </div>
+                    </footer>
+                </div>
             </div>
         );
     }
 }
-
 
 export default MainPage;
