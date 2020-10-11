@@ -10,10 +10,13 @@ function ProjectBox(props) {
         <div className="project-box">
             <div className="project-tile">
                 <div className="project-text">
-                    <h4>Christmas market</h4>
+                    <h4>Christmas market (web)</h4>
                     <h6>technologies: JS (React-Redux), HTML, CSS</h6>
                     <div className="project-description">
                         A custom-made single-page application to compute the data of a Christmas market.
+                        The customer was not used to tech, so the intent throughout the project is to make
+                        it easy to use and fool-proof (auto-save when the window is closed, serviceWorker,
+                        various import options).
                     </div>
                     <a className="project" target="new" href="https://thanhdodeur.github.io/marche-noel/">
                         <div className="generic-button white"><i className="fa fa-snowflake-o"></i>Preview</div>
@@ -28,7 +31,7 @@ function ProjectBox(props) {
                     <h4>Advanced Weapon UI</h4>
                     <h6>technologies: ActionScript 2, Flash</h6>
                     <div className="project-description">
-                        A UI mod for videogame.
+                        A UI mod for the videogame 'Secret World Legends'.
                     </div>
                     <a className="project" target="new" href="https://www.curseforge.com/tsw/tsw-mods/advanced-weapon-ui-swl">
                         <div className="generic-button white"><i className="fa fa-file-text-o"></i>CurseForge page</div>
