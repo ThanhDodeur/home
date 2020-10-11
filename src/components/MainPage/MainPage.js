@@ -78,7 +78,7 @@ class MainPage extends React.Component {
             {
                 className: (this.state.displayProjects ? "active" : "") + " green ml-auto",
                 fa: "fa-briefcase",
-                content: 'Projects', // <a target="new" href="https://thanhdodeur.github.io/marche-noel/">Christmas Market</a>
+                content: 'Sample Projects', // <a target="new" href="https://thanhdodeur.github.io/marche-noel/">Christmas Market</a>
                 callBack: this.toggleDisplayProjects
             },
         ];

@@ -118,9 +118,14 @@
         margin: 5px;
     }
 
+    .light .line {
+        background: black;
+    }
+
     .hamburger {
         position: fixed;
         cursor: pointer;
+        z-index: 50;
         top: 30px;
         right: 5%;
         transform: translate(-5%, -50%);

@@ -1,8 +1,34 @@
 .project-box {
-    backdrop-filter: saturate(120%) blur(20px);
+    backdrop-filter: saturate(120%) blur(10px);
     box-shadow: 1px 1px 9px black;
     padding: 10px;
     min-height: 90vh;
+}
+
+.project-tile {
+    width: 95%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.562);
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-tile:nth-of-type(odd) .project-text {
+    order: 1;
+}
+
+.project-tile:nth-of-type(odd) .project-text {
+    text-align: right;
+}
+
+.project-tile:nth-of-type(odd) .project-text .generic-button {
+    margin-left: auto;
+}
+
+.project-thumbnail > img {
+    max-height: 180px;
+    max-width: 360px;
 }
 
 @media screen and (max-width: 980px) {
