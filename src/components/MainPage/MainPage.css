@@ -88,3 +88,6 @@ footer a {
     display: flex;
 }
 
+.footer-signature {
+    padding: 20px;
+}
