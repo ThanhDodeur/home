@@ -2,24 +2,32 @@
   text-align: center;
 }
 
-.page {
-  min-height: 100vh;
-}
-
-.page.dark {
+.dark.page {
   color: white;
   background: radial-gradient(farthest-corner at 95vw 1vh,#0a224d 1%,#000000 100%);
-  background-image: url('./description/dark-background.jpg');
+  background-image: url('./description/dark-picture.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.page.light {
+.light.page {
   color: black;
   background: radial-gradient(farthest-corner at 90vw 10vh,#e6e6e6 1%,#dbcaa9 100%);
-  background-image: url('./description/light-background.jpg');
+  background-image: url('./description/light-picture.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.page {
+  min-height: 100vh;
 }
 
 .ml-auto {
