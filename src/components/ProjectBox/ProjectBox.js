@@ -39,6 +39,7 @@ function ProjectBox(props) {
 
     return (
         <div className="project-box">
+            <h2>Work/Projects</h2>
         {projects.map((project, index) => {
             return (
                 <div title={project.name} key={'project_'+index} className="project-tile clickable noselect" onClick={() => { onOpenProject(project.href) }}>

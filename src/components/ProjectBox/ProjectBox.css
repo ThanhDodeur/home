@@ -1,8 +1,5 @@
 .project-box {
-    backdrop-filter: saturate(120%) blur(10px);
-    box-shadow: 1px 1px 9px black;
-    padding: 10px;
-    min-height: 90vh;
+    margin: 20px 80px 100px 80px;
 }
 
 .project-tile {

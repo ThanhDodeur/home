@@ -89,6 +89,7 @@ class MainPage extends React.Component {
                 ),
                 callBack: (e) => this.onHrefWrapperClick(e),
             },
+            /*
             {
                 className:
                     (this.state.displayProjects ? "active" : "") +
@@ -97,6 +98,7 @@ class MainPage extends React.Component {
                 content: "Sample Projects", // <a target="new" href="https://thanhdodeur.github.io/marche-noel/">Christmas Market</a>
                 callBack: this.toggleDisplayProjects,
             },
+            */
         ];
         return buttons;
     }
@@ -108,11 +110,8 @@ class MainPage extends React.Component {
                 <div className="main-page">
                     <header></header>
                     <main>
-                        {!!this.state.displayProjects ? (
-                            <ProjectBox />
-                        ) : (
-                            <Summary />
-                        )}
+                        <Summary />
+                        <ProjectBox />
                     </main>
                     <footer>
                         <div className="footer-box">
