@@ -7,11 +7,18 @@
 
 .project-tile {
     width: 95%;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.562);
     margin: 10px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.project-tile:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.562);
+}
+
+.project-tile:active {
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.411);
 }
 
 .project-text {
