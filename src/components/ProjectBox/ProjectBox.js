@@ -34,14 +34,14 @@ function ProjectBox(props) {
     ];
 
     const onOpenProject = (url) => {
-        window.open(url) || window.location.replace(url);
+        window.open(url, "_blank") || window.location.replace(url);
     }
 
     return (
         <div className="project-box">
         {projects.map((project, index) => {
             return (
-                <div key={'project_'+index} className="project-tile clickable noselect" onClick={() => { onOpenProject(project.href) }}>
+                <div title={project.name} key={'project_'+index} className="project-tile clickable noselect" onClick={() => { onOpenProject(project.href) }}>
                     <div className="project-text">
                         <h4>{project.name}</h4>
                         {!!project.technologies && (
@@ -50,7 +50,7 @@ function ProjectBox(props) {
                         <div className="project-description">{project.description}</div>
                     </div>
                     <div className="project-thumbnail">
-                        <img src={project.img.src} alt=""></img>
+                        <img {...project.img}/>
                     </div>
                 </div>
             );

@@ -112,6 +112,10 @@
   background-color: #0077b5;
 }
 
+.odoo {
+  color: #875a7b;
+}
+
 .ml-10 {
   margin-left: 10px;
 }
@@ -171,4 +175,8 @@
 .fa {
   margin-left: 2px;
   margin-right: 2px;
+}
+
+a {
+  text-decoration: none;
 }
