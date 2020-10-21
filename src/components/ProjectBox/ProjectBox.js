@@ -1,7 +1,9 @@
 import React from "react";
+import { openUrl } from '../../utils/utils.js'
 import img_marche_noel from "../../description/projects/marche-noel.png";
 import img_awu from "../../description/projects/awu.png";
 import img_links from "../../description/projects/links.png";
+import img_odoo from "../../description/projects/odoo_logo.png";
 import "./ProjectBox.css";
 
 function ProjectBox(props) {
@@ -27,22 +29,28 @@ function ProjectBox(props) {
         {
             name: 'GW2 KP Generator',
             technologies: 'AHKScript',
-            description: 'A custom software that allows generating specific item base64 links and sending them to a chatbox or saving them in the paperclip.',
+            description: `A custom software that allows generating specific item base64 links and sending them to a chatbox or saving them in the paperclip.
+                This software is made for the videogame "Guild Wars 2"`,
             img: {src: img_links, alt: 'generator preview'},
             href:'https://drive.google.com/file/d/15XxHmgUoC77FD9TEFRa5thxZf3Gruwi-/view?usp=sharing',
         },
+        {
+            name: 'Odoo (my day job)',
+            technologies: 'PostgreSQL, Python, Javascript (custom OWL Framework), scss, xml templating',
+            description: `Odoo is a suite of business management software tools including CRM, e-commerce,
+                billing, accounting, manufacturing, warehouse, project management, and inventory management to name a few.
+                The Community version is a libre software, licensed under the GNU LGPLv3.`,
+            img: {src: img_odoo, alt: 'Odoo SA Logo'},
+            href:'https://www.odoo.com/',
+        },
     ];
-
-    const onOpenProject = (url) => {
-        window.open(url, "_blank") || window.location.replace(url);
-    }
 
     return (
         <div className="project-box">
             <h2>Work/Projects</h2>
         {projects.map((project, index) => {
             return (
-                <div title={project.name} key={'project_'+index} className="project-tile clickable noselect" onClick={() => { onOpenProject(project.href) }}>
+                <div title={project.name} key={'project_'+index} className="project-tile clickable noselect" onClick={() => { openUrl(project.href) }}>
                     <div className="project-text">
                         <h4>{project.name}</h4>
                         {!!project.technologies && (

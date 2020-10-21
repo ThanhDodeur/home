@@ -1,7 +1,7 @@
 import React from "react";
 import "./MainPage.css";
 
-import NavBar from "../NavBar/NavBar.js";
+//import NavBar from "../NavBar/NavBar.js";
 import ProjectBox from "../ProjectBox/ProjectBox.js";
 import Summary from "../Summary/Summary.js";
 import Footer from "../Footer/Footer.js";
@@ -107,7 +107,7 @@ class MainPage extends React.Component {
     render() {
         return (
             <div className="main-page-wrapper">
-                <NavBar buttons={this._getButtons()} />
+                {/* <NavBar buttons={this._getButtons()} /> */}
                 <div className="main-page">
                     <header></header>
                     <main>

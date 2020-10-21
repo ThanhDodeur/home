@@ -25,6 +25,11 @@
     color: black;
 }
 
+.footer-box img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .dark .footer-box a {
     color: white;
 }

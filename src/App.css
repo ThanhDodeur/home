@@ -135,6 +135,57 @@
   background: radial-gradient(farthest-corner at 95vw 10vh,#4c75c5 1%,#000000 100%);
 }
 
+.monogram-container {
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  max-height: 0px;
+  transition: all 1s;
+}
+
+.contact-container {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.monogram-container:hover {
+  max-height: 180px;
+}
+
+.contact-container > div {
+  display: flex;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.contact-container > div > span {
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: 2px;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.contact-container > div:hover > span {
+  width: 200px;
+  height: inherit;
+}
+
+.dark .contact-container svg {
+  fill: white;
+  color: white;
+}
+
 .light-icon-wrapper {
   border-radius: 50%;
   background-color: rgb(255, 223, 162);
