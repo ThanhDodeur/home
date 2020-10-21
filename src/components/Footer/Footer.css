@@ -1,15 +1,11 @@
 @import "../../vars.css";
 
-.footer-box {
-    font-weight: bold;
-}
-
 .footer-box .generic-button {
     margin: 10px;
 }
 
 .footer-box .footer-element {
-    padding: 20px;
+    padding: 10px;
     margin-left: 2px;
     margin-right: 2px;
 }
@@ -39,6 +35,6 @@
 }
 
 .footer-signature {
-    padding: 20px;
-
+    padding: 10px;
+    margin-right: 20px;
 }

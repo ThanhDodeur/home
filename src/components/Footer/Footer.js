@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import monogram from "../../description/monogram_tso.svg";
 
 function Footer(props) {
 
@@ -25,8 +24,7 @@ function Footer(props) {
                     <i className="fa fa-envelope"></i>Odoo email
                 </div>
             </a>
-            <img width="40px" height="40px" src={monogram} className="ml-auto" alt="monogram"/>
-            <div className="footer-signature">
+            <div className="footer-signature ml-auto">
                 Thanh Dodeur, Software developer @ Odoo
             </div>
         </div>
