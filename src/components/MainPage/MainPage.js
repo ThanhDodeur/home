@@ -4,6 +4,7 @@ import "./MainPage.css";
 import NavBar from "../NavBar/NavBar.js";
 import ProjectBox from "../ProjectBox/ProjectBox.js";
 import Summary from "../Summary/Summary.js";
+import Footer from "../Footer/Footer.js";
 
 class MainPage extends React.Component {
     constructor(props) {
@@ -114,30 +115,7 @@ class MainPage extends React.Component {
                         <ProjectBox />
                     </main>
                     <footer>
-                        <div className="footer-box">
-                            <a
-                                className=""
-                                target="new"
-                                href="mailto: thanhdodeur@gmail.com"
-                            >
-                                <div className="footer-element">
-                                    <i className="fa fa-envelope"></i>Personal
-                                    email
-                                </div>
-                            </a>
-                            <a
-                                className=""
-                                target="new"
-                                href="mailto: tso@odoo.com"
-                            >
-                                <div className="footer-element">
-                                    <i className="fa fa-envelope"></i>Odoo email
-                                </div>
-                            </a>
-                            <div className="footer-signature ml-auto">
-                                Thanh Dodeur, Software developer @ Odoo
-                            </div>
-                        </div>
+                        <Footer/>
                     </footer>
                 </div>
             </div>

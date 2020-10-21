@@ -1,0 +1,39 @@
+@import "../../vars.css";
+
+.footer-box {
+    font-weight: bold;
+}
+
+.footer-box .generic-button {
+    margin: 10px;
+}
+
+.footer-box .footer-element {
+    padding: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.footer-box .footer-element:hover {
+    border-left: 2px solid var(--main-color);
+    border-right: 2px solid var(--main-color);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.footer-box a {
+    color: black;
+}
+
+.dark .footer-box a {
+    color: white;
+}
+
+.footer-box {
+    display: flex;
+}
+
+.footer-signature {
+    padding: 20px;
+
+}

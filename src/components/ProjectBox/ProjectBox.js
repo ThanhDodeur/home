@@ -51,7 +51,7 @@ function ProjectBox(props) {
                         <div className="project-description">{project.description}</div>
                     </div>
                     <div className="project-thumbnail">
-                        <img {...project.img}/>
+                        <img alt={project.img.alt} src={project.img.src}/>
                     </div>
                 </div>
             );

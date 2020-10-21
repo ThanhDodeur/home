@@ -44,22 +44,6 @@
     background-color: rgba(99, 99, 99, 0.87);
 }
 
-footer .generic-button {
-    margin: 10px;
-}
-
-footer .footer-element {
-    padding: 20px;
-}
-
-footer a {
-    color: black;
-}
-
-.dark footer a {
-    color: white;
-}
-
 .generic-button {
     padding: 10px;
     color: white;
@@ -81,12 +65,4 @@ footer a {
 
 .generic-button:hover {
     filter: brightness(90%);
-}
-
-.footer-box {
-    display: flex;
-}
-
-.footer-signature {
-    padding: 20px;
 }

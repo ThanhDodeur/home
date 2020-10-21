@@ -1,13 +1,16 @@
+@import "../../vars.css";
+
 .project-box {
     margin: 20px 80px 100px 80px;
 }
 
 .project-tile {
-    width: 95%;
-    margin: 10px;
+    width: 60%;
+    margin: 50px 10px 50px 10px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    transition: all 1s;
 }
 
 .project-tile:hover {
@@ -16,6 +19,31 @@
 
 .project-tile:active {
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.411);
+}
+
+.dark .project-tile:hover {
+    box-shadow: 1px 1px 10px rgba(218, 218, 218, 0.562);
+}
+
+.dark .project-tile:active {
+    box-shadow: 7px 7px 20px rgba(219, 219, 219, 0.411);
+}
+
+.project-tile:nth-of-type(even) {
+    border-left: 2px solid var(--main-color);
+    margin-left: auto;
+}
+
+.project-tile:nth-of-type(even):hover {
+    margin-right: 10%;
+}
+
+.project-tile:nth-of-type(odd) {
+    border-right: 2px solid var(--main-color);
+}
+
+.project-tile:nth-of-type(odd):hover {
+    margin-left: 10%;
 }
 
 .project-text {
