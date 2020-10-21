@@ -12,7 +12,7 @@
 
 .light.page {
   color: black;
-  background: radial-gradient(farthest-corner at 90vw 10vh,#ffffff 1%,#f3fcff 100%);
+  background: radial-gradient(farthest-corner at 90vw 10vh,#bdbdbd 1%,#f3fcff 100%);
 }
 
 .page {
@@ -194,7 +194,7 @@
   padding: 5px;
   height: 25px;
   text-align: center;
-  position: absolute;
+  position: fixed;
   top: 0px;
   right: 0px;
   margin: 30px;

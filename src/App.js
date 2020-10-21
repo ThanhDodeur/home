@@ -28,13 +28,13 @@ function App(props) {
                     <div onClick={() => { openUrl('https://be.linkedin.com/in/thanhsondodeur') }}><img width="30px" height="30px" src={(mode === 'dark' ? linkedin_icon_white : linkedin_icon)} alt="linkedin icon"/><span>LinkedIn</span></div>
                 </div>
             </div>
+            <div role='button' className='light-icon-wrapper clickable noselect' onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}>
+                <i className={'light-icon fa ' + (mode === 'light' ? 'fa-sun-o' : 'fa-moon-o')}></i>
+            </div>
             {state.open ? (
                 <MainPage/>
             ) : (
                 <div className="frame accueil-wrapper" >
-                    <div role='button' className='light-icon-wrapper clickable noselect' onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}>
-                    <i className={'light-icon fa ' + (mode === 'light' ? 'fa-sun-o' : 'fa-moon-o')}></i>
-                    </div>
                     <Accueil callBack={openApp} theme={mode}/>
                 </div>
             )}

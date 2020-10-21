@@ -18,7 +18,7 @@
 }
 
 .footer-box a {
-    color: black;
+    color: white;
 }
 
 .footer-box img {
@@ -35,6 +35,7 @@
 }
 
 .footer-signature {
+    color: white;
     padding: 10px;
     margin-right: 20px;
 }
