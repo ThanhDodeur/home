@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.61000ef3.chunk.css",
-    "main.js": "/home/static/js/main.b79b83f1.chunk.js",
-    "main.js.map": "/home/static/js/main.b79b83f1.chunk.js.map",
+    "main.css": "/home/static/css/main.7a381830.chunk.css",
+    "main.js": "/home/static/js/main.1ad65de9.chunk.js",
+    "main.js.map": "/home/static/js/main.1ad65de9.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.1ebb12cf.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.1ebb12cf.js.map",
-    "static/js/2.5a868cb8.chunk.js": "/home/static/js/2.5a868cb8.chunk.js",
-    "static/js/2.5a868cb8.chunk.js.map": "/home/static/js/2.5a868cb8.chunk.js.map",
+    "static/js/2.95de9356.chunk.js": "/home/static/js/2.95de9356.chunk.js",
+    "static/js/2.95de9356.chunk.js.map": "/home/static/js/2.95de9356.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.50baa24c1d3776e0efb314d44bfdc281.js": "/home/precache-manifest.50baa24c1d3776e0efb314d44bfdc281.js",
+    "precache-manifest.bd43958739f0269fe8af9fbfca7e56c6.js": "/home/precache-manifest.bd43958739f0269fe8af9fbfca7e56c6.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/main.61000ef3.chunk.css.map": "/home/static/css/main.61000ef3.chunk.css.map",
-    "static/js/2.5a868cb8.chunk.js.LICENSE.txt": "/home/static/js/2.5a868cb8.chunk.js.LICENSE.txt",
+    "static/css/main.7a381830.chunk.css.map": "/home/static/css/main.7a381830.chunk.css.map",
+    "static/js/2.95de9356.chunk.js.LICENSE.txt": "/home/static/js/2.95de9356.chunk.js.LICENSE.txt",
     "static/media/awu.png": "/home/static/media/awu.a5f1981c.png",
+    "static/media/github_icon.svg": "/home/static/media/github_icon.2010d6c1.svg",
+    "static/media/github_icon_white.svg": "/home/static/media/github_icon_white.46e3a283.svg",
+    "static/media/linkedin_icon.svg": "/home/static/media/linkedin_icon.31faeb49.svg",
+    "static/media/linkedin_icon_white.svg": "/home/static/media/linkedin_icon_white.e2ec7dfa.svg",
     "static/media/links.png": "/home/static/media/links.6f6d31f8.png",
     "static/media/main-icon-dark.svg": "/home/static/media/main-icon-dark.8f958e25.svg",
     "static/media/main-icon-light.svg": "/home/static/media/main-icon-light.2b04b2d2.svg",
-    "static/media/marche-noel.png": "/home/static/media/marche-noel.84c50216.png"
+    "static/media/marche-noel.png": "/home/static/media/marche-noel.84c50216.png",
+    "static/media/monogram_tso.svg": "/home/static/media/monogram_tso.d35f35e9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1ebb12cf.js",
-    "static/js/2.5a868cb8.chunk.js",
-    "static/css/main.61000ef3.chunk.css",
-    "static/js/main.b79b83f1.chunk.js"
+    "static/js/2.95de9356.chunk.js",
+    "static/css/main.7a381830.chunk.css",
+    "static/js/main.1ad65de9.chunk.js"
   ]
 }
