@@ -158,10 +158,13 @@ body::-webkit-scrollbar {
 
 .main-monogram {
   cursor: pointer;
+  border-radius: 100px;
+  padding: 5px;
 }
 
 .contact-container {
   margin-top: 5px;
+  margin-left: 4px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -171,6 +174,10 @@ body::-webkit-scrollbar {
 
 .monogram-container:hover {
   max-height: 180px;
+}
+
+.monogram-container:hover > .main-monogram {
+  box-shadow: 1px 1px 20px #000000c2;
 }
 
 .contact-container > div {
