@@ -22,14 +22,6 @@
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.411);
 }
 
-.dark .project-tile:hover {
-    box-shadow: 1px 1px 10px rgba(218, 218, 218, 0.562);
-}
-
-.dark .project-tile:active {
-    box-shadow: 7px 7px 20px rgba(219, 219, 219, 0.411);
-}
-
 .project-tile:nth-of-type(even) {
     border-left: 2px solid var(--main-color);
     margin-left: auto;

@@ -15,12 +15,12 @@ body::-webkit-scrollbar {
 
 .dark.page {
   color: white;
-  background: radial-gradient(farthest-corner at 95vw 1vh,#0a224d 1%,#000000 100%);
+  background-color: #1e314c;
 }
 
 .light.page {
   color: black;
-  background: radial-gradient(farthest-corner at 90vw 10vh,#bdbdbd 1%,#f3fcff 100%);
+  background-color: #f5f5f5;
 }
 
 .page {
@@ -156,6 +156,10 @@ body::-webkit-scrollbar {
   transition: all 1s;
 }
 
+.main-monogram {
+  cursor: pointer;
+}
+
 .contact-container {
   margin-top: 5px;
   display: flex;
@@ -173,6 +177,15 @@ body::-webkit-scrollbar {
   display: flex;
   padding: 5px;
   cursor: pointer;
+  transition: all 0.2s;
+}
+
+.contact-container > div:hover {
+  margin-left: 5px;
+}
+
+.contact-container > div:active {
+  transform: translate(1px, 1px);
 }
 
 .contact-container > div > span {
