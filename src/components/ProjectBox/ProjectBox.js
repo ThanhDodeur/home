@@ -8,14 +8,16 @@ import "./ProjectBox.css";
 
 function ProjectBox(props) {
 
+    // could in the long run, be added to the store.
     const projects = [
         {
             name: 'Christmas market (web)',
             technologies: 'JS (React-Redux), HTML, CSS',
             description: `A custom-made single-page application to compute the data of a Christmas market.
-                The customer was not used to tech, so the intent throughout the project is to make
-                it easy to use and fool-proof (auto-save when the window is closed, serviceWorker,
-                various import options).`,
+                The customer was not used to tech, so the intent throughout the project was to make
+                it easy-to-use and fool-proof through various redundencies like saving, auto saving,
+                the ability to import/export and by having the whole app being front-end only to be
+                able to fully operate offline through the serviceworker.`,
             img: {src: img_marche_noel, alt: 'web page preview'},
             href:'https://thanhdodeur.github.io/marche-noel/',
         },
