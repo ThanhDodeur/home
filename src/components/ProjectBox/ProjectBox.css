@@ -43,7 +43,6 @@
 .project-text {
     min-width: 50%;
     width: 50%;
-    max-width: 50%;
 }
 
 .project-description {
@@ -90,6 +89,13 @@
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project-text {
+        min-width: inherit;
+        width: inherit;
     }
 }
 
