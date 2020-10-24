@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14b163344156aa2ad96045052e65d2ee",
+    "revision": "48f16b6dffe033ec8bc2b384e5a2d836",
     "url": "/home/index.html"
   },
   {
-    "revision": "dfe6c7f5b5f64aa584f6",
-    "url": "/home/static/css/main.34e619ce.chunk.css"
+    "revision": "771703eb3470a77b62c3",
+    "url": "/home/static/css/main.ff59f668.chunk.css"
   },
   {
     "revision": "708c0403786349bdf4f0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/js/2.95de9356.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dfe6c7f5b5f64aa584f6",
-    "url": "/home/static/js/main.4cb3dbd9.chunk.js"
+    "revision": "771703eb3470a77b62c3",
+    "url": "/home/static/js/main.b01a7a0a.chunk.js"
   },
   {
     "revision": "327519257ae83559732d",
@@ -62,5 +62,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d35f35e9126faaf6fc2f13f1a9c36190",
     "url": "/home/static/media/monogram_tso.d35f35e9.svg"
+  },
+  {
+    "revision": "ac6cbbd52b87b3e80e0aa2b5179d1d24",
+    "url": "/home/static/media/odoo_logo2.ac6cbbd5.png"
   }
 ]);
