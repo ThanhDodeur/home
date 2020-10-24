@@ -153,13 +153,15 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   max-height: 0px;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .main-monogram {
   cursor: pointer;
   border-radius: 100px;
   padding: 5px;
+  box-shadow: 1px 1px 20px #00000000;
+  transition: box-shadow 0.5s;
 }
 
 .contact-container {
@@ -169,7 +171,7 @@ body::-webkit-scrollbar {
   flex-direction: column;
   text-align: left;
   overflow: hidden;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .monogram-container:hover {
@@ -226,6 +228,7 @@ body::-webkit-scrollbar {
   top: 0px;
   right: 0px;
   margin: 30px;
+  transition: all 0.3s;
 }
 
 .light-icon-wrapper:hover {

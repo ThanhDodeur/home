@@ -12,6 +12,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     transition: all 1s;
+    border-radius: 5px;
 }
 
 .project-tile:hover {
