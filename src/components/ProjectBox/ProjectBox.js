@@ -3,7 +3,7 @@ import { openUrl } from '../../utils/utils.js'
 import img_marche_noel from "../../description/projects/marche-noel.png";
 import img_awu from "../../description/projects/awu.png";
 import img_links from "../../description/projects/links.png";
-import img_odoo from "../../description/projects/odoo_logo.png";
+import img_odoo from "../../description/projects/odoo_logo2.png";
 import "./ProjectBox.css";
 
 function ProjectBox(props) {
