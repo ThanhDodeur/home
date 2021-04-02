@@ -12,11 +12,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
     transition: all 1s;
-    border-radius: 5px;
 }
 
 .project-tile:hover {
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.562);
+    box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.171);
 }
 
 .project-tile:active {
